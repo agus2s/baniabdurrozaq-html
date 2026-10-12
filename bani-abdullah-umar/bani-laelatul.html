@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ibu Laelatul Ngidyah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header>
+<main>
+  <section>
+    <h2>Ibu Laelatul Ngidyah</h2>
+    <p>Ibu Laelatul Ngidyah anak dari Bapak Mujahid. Ibu Laelatul Ngidyah memiliki 3 orang anak, yaitu:</p>
+    <ol>
+      <li>Nangim</li>
+      <li>Slamet Riyadi</li>
+      <li>Nida</li>            
+    </ol>
+  </section>
+  <section>
+    <h3>Silsilah Keluarga Ibu Laelatul Ngidyah</h3>
+    <div class="mermaid" id="silsilah">
+    graph TD
+    A[Mbah Abdurrozaq] --> B[Ibu Mariyah] --> C[Ibu Hamidah]
+    C --> D[Bapak Mujahid] --> E[Ibu Laelatul Ngidyah]
+    
+    click A "../index.html" "Bani Abdurrozaq"
+    click B "index.html" "Bani Abdullah Umar"
+    click C "bani-abu-nangim.html" "Bani Abu Nangim"
+	click D "bani-mujahid.html"
+    </div>
+  </section>
+</main>
+
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>
+  

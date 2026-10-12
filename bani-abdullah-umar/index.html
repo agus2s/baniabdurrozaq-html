@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ibu Mariyah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header><main>
+	<section>
+		<h2>Ibu Mariyah bersuami Bapak Abdullah Umar</h2>
+		<p>Ibu Mariyah anak dari K.H. Abdurrozaq. Ibu Mariyah bersuami Bapak Abdullah Umar. Ibu Mariyah memiliki 8 orang anak:</p>
+		<ol>
+			<li><a href="bani-sabilan.html">Ibu Aisyah bersuami Bapak Sabilan</a></li>
+			<li><a href="bani-imron.html">Bapak Imron</a></li>
+			<li><a href="bani-bahrudin.html">Bapak Bahrudin</a></li>
+			<li><a href="bani-abu-nangim.html">Ibu Hamidah bersuami Bapak Abu Nangim</a></li>
+			<li><a href="bani-romlah.html">Ibu Romlah</a></li>
+			<li><a href="bani-jaenah.html">Ibu Jaenah</a></li>
+			<li><a href="bani-hamdani.html">Bapak Hamdani</a></li>
+			<li><a href="bani-hayan.html">Bapak Hayan beristri Ibu Tasmiyah</a></li>                
+		</ol>
+	</section>
+	<section>
+		<h3>Silsilah Keluarga Ibu Mariyah</h3>
+		<div class="mermaid" id="silsilah">
+		flowchart LR
+		A[Mbah Abdurrozaq] --> B[Ibu Mariyah]
+		B --> 1[Ibu Aisyah]
+		B --> 2[Bapak Imron]
+		B --> 3[Bapak Bahrudin]
+		B --> 4[Ibu Hamidah]
+		B --> 5[Ibu Romlah]
+		B --> 6[Ibu Jaenah]
+		B --> 7[Bapak Hamdani]
+		B --> 8[Bapak Hayan]
+
+		click A "../index.html"
+		click 1 "bani-sabilan.html" "Bani Sabilan"
+		click 2 "bani-imron.html"
+		click 3 "bani-bahrudin.html"
+		click 4 "bani-abu-nangim.html" "Bani Abu Nangim"
+		click 5 "bani-romlah.html"
+		click 6 "bani-jaenah.html"
+		click 7 "bani-hamdani.html"
+		click 8 "bani-hayan.html"
+		</div>
+	</section>
+</main>
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>

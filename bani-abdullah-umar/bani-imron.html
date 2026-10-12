@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bapak Imron</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header>
+<main>
+	<section>
+		<h2>Bapak Imron</h2>
+		<p>Bapak Imron anak dari Ibu Mariyah dan Bapak Abdullah Umar. Bapak Imron memiliki 11 anak:</p>
+		<ol>
+			<li><a href="bani-sangadah.html">Ibu Sangadah</a></li>
+			<li>Ibu Baryatun</li>
+			<li><a href="bani-mudzakir.html">Bapak Mudzakir</a></li>
+			<li><a href="bani-mus-imron.html">Ibu Mus</a></li>
+			<li><a href="bani-sapiyah.html">Ibu Sapiyah</a></li>
+			<li><a href="bani-taslimah.html">Ibu Taslimah</a></li>
+			<li>Bapak Muhaimin</li>
+			<li><a href="bani-muhtamil.html">Bapak Muhtamil</a></li>
+			<li><a href="bani-munadir.html">Bapak H. Munadir</a></li>
+			<li><a href="bani-muhtalim.html">Bapak Muhtalim</a></li>
+			<li><a href="bani-yatimah.html">Ibu Yatimah</a></li>
+		</ol>
+	</section>
+	<section>
+		<h3>Silsilah Keluarga Bapak Imron</h3>
+		<div class="mermaid" id="silsilah">
+		flowchart TD;
+		A[Mbah Abdurrozaq] --> B[Ibu Mariyah] --> C[Bapak Imron];
+		D[Bapak Abdullah Umar] --> C;
+
+		click A "../index.html";
+		click B "index.html";
+		</div>
+	</section>
+</main>
+
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>

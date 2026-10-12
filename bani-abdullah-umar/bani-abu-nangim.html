@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ibu Hamidah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header>
+<main>
+	<section>
+		<h2>Ibu Hamidah bersuami Bapak Abu Nangim</h2>
+		<p>Ibu Hamidah anak dari Ibu Mariyah dan Bapak Abdullah Umar. Ibu Hamidah bersuami Bapak Abu Nangim. Ibu Hamidah memiliki 9 anak:</p>
+		<ol>
+			<li><a href="bani-mujahid.html">Bapak Mujahid</a></li>
+			<li><a href="bani-mutingah.html">Ibu Mutingah</a></li>
+			<li><a href="bani-muhtarom.html">Bapak Muhtarom</a></li>
+			<li><a href="bani-mungawam.html">Bapak Mungawam</a></li>
+			<li><a href="bani-muhtadi.html">Bapak Muhtadi</a></li>
+			<li><a href="bani-fatoni.html">Bapak Fatoni</a></li>
+			<li><a href="bani-mutasingah.html">Ibu Mutasingah</a></li>
+			<li><a href="bani-muhtasun.html">Bapak Muhtasun</a></li>
+			<li>Ibu Khoiriyah</li>
+		</ol>
+	</section>
+		<section>
+		<h3>Silsilah Keluarga Ibu Hamidah</h3>
+        <div class="mermaid" id="silsilah">
+        graph TD
+        A[Mbah Abdurrozaq] --> B[Ibu Mariyah] --> C[Ibu Hamidah]
+        click A "../index.html" "Bapak K.H. Abdurrozaq"
+        click B "index.html" "Bani Abdullah Umar"
+        </div>
+	</section>
+</main>
+
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>

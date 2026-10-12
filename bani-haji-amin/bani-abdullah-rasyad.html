@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bapak Abdullah Rasyad</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header><main>
+	<section>    
+		<h1>Bapak Abdullah Rasyad</h1>
+		<p>Bapak Abdullah Rasyad anak dari Bapak H. Amin. Bapak Abdullah Rasyad memiliki 6 anak:</p>
+		<ol>
+			<li><a href="#">Ibu Kasriyah</a></li>
+			<li><a href="bani-tasringah.html">Ibu Cublek Tasringah</a></li>
+			<li><a href="bani-nasihin.html">Bapak Nasihin</a></li>
+			<li>Bapak Nasiran</li>
+			<li><a href="bani-nasirin.html">Bapak Nasirin</a></li>
+			<li><a href="bani-nasrudin.html">Bapak Nasrudin</a></li>
+		</ol>
+	</section>
+	<section>
+		<h3>Silsilah Keluarga Bapak Abdullah Rasyad</h3>
+		<div class="mermaid" id="silsilah">flowchart LR
+			A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"] --> C["Bapak Dullah Rasyad"]
+			C --> 1["Ibu Kasriyah"]
+			C --> 2["Ibu Cublek Tasringah"]
+			C --> 3["Bapak Nasihin"]
+			C --> 4["Bapak Nasiran"]
+			C --> 5["Bapak Nasirin"]
+			C --> 6["Bapak Nasrudin"]
+			click A "../index.html"
+			click B "index.html"
+			click 2 "bani-tasringah.html"
+			click 3 "bani-nasihin.html"
+			click 5 "bani-nasirin.html"
+			click 6 "bani-nasrudin.html"
+		</div>
+</main>
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>

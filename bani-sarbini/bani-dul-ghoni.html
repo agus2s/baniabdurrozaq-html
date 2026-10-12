@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ibu 'Ariyah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header>
+<main>
+	<section>
+		<h1>Ibu 'Ariyah bersuami Bapak Dul Ghoni</h1>
+		<p>Ibu 'Ariyah anak dari Ibu Sujiah/Marjiah dan Bapak Sarbini. Ibu 'Ariyah bersuami Bapak Dul Ghoni. Ibu 'Ariyah memiliki 6 anak, yaitu:</p>
+		<ol>
+			<li><a href="#">Ibu Badriyah</a></li>
+			<li><a href="#">Bapak H. Zubaidi</a></li>
+			<li><a href="#">Ibu Tarhimah</a></li>
+			<li><a href="#">Bapak Ngafisudin/Bawuk</a></li>
+			<li><a href="#">Ibu Makromah</a></li>
+			<li><a href="#">Bapak Aminudin</a></li>
+		</ol>
+	</section>
+	<section>
+		<h3>Silsilah Keluarga Ibu 'Ariyah</h3>
+		<div class="mermaid" id="silsilah">
+			graph TD
+			A[Mbah Abdurrozaq] --> B[Ibu Sujiah/Marjiah] --> C[Ibu 'Ariyah]
+			click A "../index.html"
+			click B "index.html" "Bani Sarbini"
+		</div>
+	</section>
+</main>
+
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>

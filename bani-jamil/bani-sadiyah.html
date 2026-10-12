@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ibu Sa'diyah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header><main>
+	<section>
+		<h2>Ibu Sa'diyah</h2>
+		<p>Ibu Sa'diyah anak dari Bapak Muhammad Jamil dan Ibu Maemunah. Ibu Sa'diyah memiliki 3 orang anak, yaitu:</p>
+		<ol>
+			<li><a href="bani-marsudi.html">Bapak Marsudi</a></li>
+			<li><a href="bani-syawal.html">Bapak Syawal</a></li>
+			<li><a href="bani-towiyah.html">Ibu Towiyah</a></li>
+		</ol>
+	</section>
+	  <section>
+    <h3>Silsilah Keluarga Ibu Sa'diyah</h3>
+    <div class="mermaid" id="silsilah">
+    graph TD
+    A[Mbah Abdurrozaq] --> B[Bapak Jamil] --> C[Ibu Sa'diyah]
+    click A "../index.html"
+    click B "index.html"
+    </div>
+  </section>
+</main>
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>

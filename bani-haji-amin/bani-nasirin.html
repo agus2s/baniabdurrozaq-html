@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bapak Nasirin</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header><main>
+	<section>
+		<h2>Bapak Nasirin</h2>
+		<p>Bapak Nasirin anak dari Bapak Abdullah Rasyad. Bapak Nasirin memiliki 4 anak:</p>
+		<ol>			
+			<li>Bapak/Ibu Nur</li>
+			<li>Bapak Ohib</li>
+			<li>Bapak/Ibu Ta'ul</li>
+			<li>Ibu IIf</li>
+		</ol>
+	</section>
+	<section>
+		<h3>Silsilah Keluarga Bapak Nasirin</h3>
+		<div class="mermaid" id="silsilah">
+			graph TD
+			A[Mbah Abdurrozaq] --> B[Bapak H. Amin]
+			B --> C[Bapak Dullah Rasyad] --> D[Bapak Nasirin]
+      
+			click A "../index.html"
+			click B "index.html"
+			click C "bani-abdullah-rasyad.html"			
+		</div>
+	</section>
+</main>
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>
+  

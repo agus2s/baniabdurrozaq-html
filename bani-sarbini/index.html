@@ -1,0 +1,79 @@
+ 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ibu Sujiah/Marjiah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header><main>
+	<section>
+		<h2>Ibu Sujiah/Marjiah bersuami Bapak Sarbini</h2>
+		<p>Ibu Sujiah/Marjiah anak dari K.H. Abdurrozaq. Ibu Sujiah/Marjiah bersuami Bapak Sarbini. Ibu Sujiah/Marjiah memiliki 5 orang anak:</p>
+		<ol>
+			<li><a href="bani-dul-ghoni.html">Ibu 'Ariyah bersuami Bapak Dul Ghoni</a></li>
+			<li><a href="bani-ansor.html">Ibu Nafsatun bersuami Bapak Ansor</a></li>
+			<li><a href="bani-afinah.html">Ibu 'Afinah</a></li>
+			<li><a href="bani-ahmad-sumedi.html">Bapak Ahmad Sumedi</a></li>
+			<li><a href="#">Ibu Alfiyah</a></li>
+			<li><a href="bani-abdul-qohar.html">Bapak Abdul Qohar beristri Ibu Machamah</a></li>
+			<li><a href="#">Ibu Mukronah</a></li>
+		</ol>
+		<h3>Kenangan Abadi</h3>
+		<ol>
+			<li>Mbah Abdul Hamid Kartanegara sekalian</li>
+			<li>Mbah Asngari sekalian</li>
+			<li>Mbah Murjana sekalian</li>
+			<li>Mbah Sarbini sekalian</li>
+		</ol>
+	</section>
+	<section>
+		<h3>Silsilah Keluarga Ibu Sujiah/Marjiah</h3>
+		<div class="mermaid" id="silsilah">
+    flowchart LR;
+		A["Mbah Abdurrozaq"] --> B["Ibu Sujiah/Marjiah"];
+		B --> 1["Ibu \'Ariyah"];
+		B --> 2["Ibu Nafsatun"];
+		B --> 3["Ibu \'Afinah"];
+		B --> 4["Bapak Ahmad Sumedi"];
+		B --> 5["Ibu Alfiyah"];
+		B --> 6["Bapak Abdul Qohar"];
+		B --> 7["Ibu Mukronah"];
+    click A "../index.html";
+		click 1 "bani-dul-ghoni.html";
+		click 2 "bani-ansor.html";
+		click 3 "bani-afinah.html";
+		click 4 "bani-ahmad-sumedi.html";
+		click 6 "bani-abdul-qohar.html"</div>
+	</section>
+</main>
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ibu Yatimah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header><main>
+    <section>
+        <h2>Ibu Yatimah</h2>
+        <p>Ibu Yatimah anak dari Bapak Imron. Ibu Yatimah memiliki 3 orang anak, yaitu:</p>
+        <ol>
+			<li>Ibu Umi Habibah</li>
+			<li>Bapak Matup</li>
+			<li>Bapak Lukman</li>
+        </ol>
+    </section>
+    <section>
+        <h3>Silsilah Keluarga Ibu Yatimah</h3>
+        <div class="mermaid" id="silsilah">
+        graph TD
+        A[Mbah Abdurrozaq] --> B[Ibu Mariyah] --> C[Bapak Imron]
+        C --> D[Ibu Yatimah]
+        click A "../index.html" "Bapak K.H. Abdurrozaq"
+        click B "index.html" "Bani Abdullah Umar"
+        click C "bani-imron.html" "Bani Imron"
+        </div>
+    </section>
+</main>
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>
+  

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bapak Hasan Ilyas</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Bapak Hasan Ilyas beristri Ibu Rochyati</h2>
+        <p>Bapak Hasan Ilyas anak dari K.H. Abdurrozaq. Bapak Hasan Ilyas tinggal di Desa Sidamulya Kecamatan Sidareja. Bapak Hasan Ilyas beristri Ibu Rochyati. Bapak Hasan Ilyas memiliki 3 orang anak:</p>
+        <ol>
+            <li><a href="bani-agus.html">Ibu Umi Latifah bersuami Bapak Agus Supriyadi</a></li>
+            <li><a href="bani-nurman.html">Ibu Hindun Asfiyah bersuami Bapak Nurman Mulyana</a></li>
+            <li><a href="bani-arsyad.html">Ibu Malehatun bersuami Bapak Arsyad Anwar</a></li>
+        </ol>
+		<h3>Kenangan Abadi</h3>
+		<ol>
+			<li>Bapak H. Ilyas bin Abdurrozaq sekalian</li>
+			<li>Ibu Rochyati binti Hasan Muhanan</li>
+			<li>Mbah Hasan Muhanan sekalian</li>
+		</ol>
+    </section>
+    <section>
+        <h3>Silsilah Keluarga Bapak Hasan Ilyas</h3>
+        <div class="mermaid" id="silsilah">
+            flowchart TD;
+            A["Mbah Abdurrozaq"] --> B["Bapak Hasan Ilyas"];
+            B --> D["Ibu Umi Latifah"];
+            B --> E["Ibu Hindun Asfiyah"];
+            B --> F["Ibu Malehatun"];
+            click A "../index.html";
+            click D "bani-agus.html";
+            click E "bani-nurman.html";
+            click F "bani-arsyad.html";
+        </div>
+    </section>
+</main>
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>

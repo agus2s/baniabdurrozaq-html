@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ibu Aisyah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header><main>
+    <section>
+        <h2>Ibu Aisyah bersuami Bapak Sabilan</h2>
+        <p>Ibu Aisyah adalah anak dari Ibu Mariyah dan Bapak Abdullah Umar. Ibu Aisyah memiliki 6 orang anak:</p>
+        <ol>
+            <li><a href="bani-mujayir.html">Bapak Mujayir/Dahlan</a></li>
+			<li><a href="bani-mukhlas.html">Bapak Mukhlas</a></li>
+            <li>Bapak Muhajir</li>
+            <li>Bapak Mughofir</li>
+            <li><a href="bani-muhyidin.html">Bapak Kuat/Muhyidin</a></li>
+            <li><a href="bani-mungadin.html">Bapak Mungadin</a></li>
+            <li><a href="bani-tulus.html">Bapak Tulus</a></li>
+        </ol>
+    </section>
+    <section>
+        <h3>Silsilah Keluarga Ibu Aisyah</h3>
+        <div class="mermaid" id="silsilah">
+            graph LR;
+                A[Mbah Abdurrozaq] --> B[Ibu Mariyah] --> C[Ibu Aisyah]
+                D[Bapak Abdullah Umar] --> C;
+
+                C --> 1[Bapak Mujayir/Dahlan]
+                C --> 2[Bapak Mukhlas]
+                C --> 3[Bapak Muhajir]
+                C --> 4[Bapak Mughofir]
+                C --> 5[Bapak Kuat/Muhyidin]
+                C --> 6[Bapak Mungadin]
+                C --> 7[Bapak Tulus]
+
+                click A "../index.html"
+                click B "index.html"
+                click 1 "bani-mujayir.html"
+                click 2 "bani-mukhlas.html"
+                click 5 "bani-muhyidin.html"
+                click 6 "bani-mungadin.html"
+                click 7 "bani-tulus.html"
+        </div>
+    </section>
+</main>
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>
+  

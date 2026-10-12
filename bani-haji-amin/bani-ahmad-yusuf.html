@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bapak Ahmad Yusuf</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+    <h1><a href="../index.html">Bani K.H. Abdurrozaq</a></h1>
+    <nav>
+        <a href="../index.html">Beranda</a>
+        <a href="#silsilah">Silsilah</a>
+        <a href="../kenangan-abadi.html">Kenangan Abadi</a>
+    </nav>
+</header>
+<main>
+	<section>
+		<h2>Bapak Ahmad Yusuf</h2>
+		<p>Bapak Ahmad Yusuf anak dari Bapak H. Amin. Bapak Ahmad Yusuf memiliki 10 anak:</p>
+		<ol>
+			<li><a href="bani-lapi.html">Bapak/Ibu Lapi</a></li>
+			<li><a href="bani-sariyah.html">Ibu Sariyah</a></li>
+			<li><a href="bani-sarman.html">Bapak Sarman</a></li>
+			<li><a href="bani-sarmiyah.html">Ibu Sarmiyah</a></li>
+			<li><a href="bani-sarilah.html">Ibu Sarilah</a></li>
+			<li><a href="bani-salimun.html">Bapak Salimun</a></li>
+			<li><a href="bani-samingun.html">Bapak Samingun</a></li>
+			<li><a href="bani-ludiyah.html">Ibu Ludiyah</a></li>
+			<li><a href="bani-surat.html">Bapak Surat</a></li>
+			<li><a href="bani-ngantun.html">Ibu Ngantun</a></li>
+			<li>Ibu Ngaenah</li>
+		</ol>
+	</section>
+	<section>
+		<h3>Silsilah Keluarga Bapak Ahmad Yusuf</h3>
+		<div class="mermaid" id="silsilah">flowchart LR;
+		A["Mbah Abdurrozaq"] --> B["Bapak H. Amin"];
+		B --> C["Bapak Ahmad Yusuf"];	
+		C --> 1[Bapak/Ibu Lapi];
+		C --> 2[Ibu Sariyah];
+		C --> 3[Bapak Sarman];
+		C --> 4[Ibu Sarmiyah];
+		C --> 5[Ibu Sarilah];
+		C --> 6[Bapak Salimun];
+		C --> 7[Bapak Samingun];
+		C --> 8[Ibu Ludiyah];
+		C --> 9[Bapak Surat];
+		C --> 10[Ibu Ngantun];
+		C --> 11[Ibu Ngaenah];
+
+		click A "../index.html";
+		click B "index.html";
+		click 1 "bani-lapi.html";
+		click 2 "bani-sariyah.html";
+		click 3 "bani-sarman.html";
+		click 4 "bani-sarmiyah.html";
+		click 5 "bani-sarilah.html";
+		click 6 "bani-salimun.html";
+		click 7 "bani-samingun.html";
+		click 8 "bani-ludiyah.html";
+		click 9 "bani-surat.html";
+		click 10 "bani-ngantun.html";
+	</div>	
+	</section>
+</main>
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+		startOnLoad: true,
+		securityLevel: "loose",
+		theme: "neutral",
+		themeVariables: {
+			fontFamily: 'Segoe UI, sans-serif',
+			primaryColor: '#000000',
+			primaryTextColor: '#ffffff',
+		}
+	});
+</script>
+<footer>
+	<p>Dibangun dengan ❤ oleh tim <a href="https://dulur.my.id" target="_blank">Dulur.my.id</a> dan Bani Abdurrozaq</p>
+</footer>
+
+</body>
+</html>
